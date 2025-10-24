@@ -12,7 +12,7 @@ int main()
         for (int j = 0; j < c; j++)
         {
             printf("Enter %d*%d th element of 1st matrix: ", i + 1, j + 1);
-            scanf("%d", &mat1[r][j]);
+            scanf("%d", &mat1[r][c]);
         }
     }
     for (int i = 0; i < r; i++)
@@ -20,7 +20,7 @@ int main()
         for (int j = 0; j < c; j++)
         {
             printf("Enter %d*%d th element of 2nd matrix: ", r + 1, j + 1);
-            scanf("%d", &mat2[r][j]);
+            scanf("%d", &mat2[r][c]);
         }
     }
     printf("\nAddition of 1st matrix & 2nd matrix: \n");
@@ -28,7 +28,7 @@ int main()
     {
         for (int j = 0; j < c; j++)
         {
-            matrix[i][j] = mat1[i][j] + mat2[i][j];
+            matrix[r][c] = mat1[r][c] + mat2[r][c];
 
             printf("  %d", matrix[r][c]);
         }
@@ -36,4 +36,5 @@ int main()
     }
 
     return 0;
+
 }
