@@ -14,8 +14,7 @@ int main()
 
     printf("Reverse result = %d", reverse);
 
-    original = num;
-    if (original = reverse)
+    if (original == reverse)
     {
         printf("\n So %d is a Palindrome Number.", original);
     }
@@ -25,4 +24,5 @@ int main()
     }
 
     return 0;
+
 }
